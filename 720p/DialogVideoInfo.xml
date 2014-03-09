@@ -731,7 +731,7 @@
                 </control>
                 <control type="button" id="49">
                     <description>Home Theatre</description>
-                    <include>ButtonInfoDialogsCommonValues</include>
+                    <include>TopButton</include>
                     <label>Cinema</label>
                     <onclick>Dialog.Close(MovieInformation)</onclick>
                     <onclick>RunScript(script.cinema.experience,movieid=$INFO[ListItem.DBID])</onclick>
