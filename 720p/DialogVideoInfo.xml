@@ -729,7 +729,7 @@
                     <include>TopButton</include>
                     <visible>!substring(Container.FolderPath,plugin://plugin.video,left)</visible>
                 </control>
-                <control type="button" id="49">
+                <control type="button" id="17">
                     <description>Home Theatre</description>
                     <include>TopButton</include>
                     <label>Cinema</label>
@@ -825,6 +825,14 @@
                     <animation effect="fade" start="100" end="70" time="200" tween="cubic" easing="inout" condition="!Control.HasFocus(6)" reversible="true">Conditional</animation>
                     <animation effect="zoom"  start="100" end="90" time="200" tween="cubic" easing="inout" center="auto" condition="!Control.HasFocus(6)" reversible="true">Conditional</animation>
                     <visible>!substring(Container.FolderPath,plugin://plugin.video,left)</visible>
+                </control>
+                <control type="label">
+                    <description>Home Theatre</description>
+                    <include>TopSmallLabel</include>
+                    <label>$INFO[Control.GetLabel(17)]</label>
+                    <animation effect="fade" start="100" end="70" time="200" tween="cubic" easing="inout" condition="!Control.HasFocus(17)" reversible="true">Conditional</animation>
+                    <animation effect="zoom"  start="100" end="90" time="200" tween="cubic" easing="inout" center="auto" condition="!Control.HasFocus(17)" reversible="true">Conditional</animation>
+                    <visible>system.hasaddon(script.cinema.experience) + Container.Content(movies)</visible>
                 </control>
             </control>
         </control>
