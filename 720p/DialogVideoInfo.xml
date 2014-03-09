@@ -729,6 +729,14 @@
                     <include>TopButton</include>
                     <visible>!substring(Container.FolderPath,plugin://plugin.video,left)</visible>
                 </control>
+                <control type="button" id="49">
+                    <description>Home Theatre</description>
+                    <include>ButtonInfoDialogsCommonValues</include>
+                    <label>Cinema</label>
+                    <onclick>Dialog.Close(MovieInformation)</onclick>
+                    <onclick>RunScript(script.cinema.experience,movieid=$INFO[ListItem.DBID])</onclick>
+                    <visible>system.hasaddon(script.cinema.experience) + Container.Content(movies)</visible>
+                </control>
             </control>
             <!-- Labels -->
             <control type="grouplist">
