@@ -414,7 +414,11 @@
 				<item id="12">
 					<label>$LOCALIZE[130]</label>
 					<onclick>ActivateWindow(SystemInfo)</onclick>
-				</item>
+                </item>
+                <item id="13">
+                    <label>[COLOR FF757677]Open[/COLOR][COLOR FF8ABEE2]ELEC[/COLOR]</label>
+                    <onclick>RunAddon(service.openelec.settings)</onclick>
+                </item>
 			</content>
 		</control>
 	</include>
