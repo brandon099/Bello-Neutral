@@ -494,7 +494,7 @@
 						<shadowcolor>77000000</shadowcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label fallback="․  ․  ․">$VAR[MusicLabel2]</label>
+						<label fallback="">$VAR[MusicLabel2]</label>
 		        <visible>![Container.Content(Addons) | Substring(Container.FolderPath,plugin,left)]</visible>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
@@ -508,7 +508,7 @@
 						<shadowcolor>77000000</shadowcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+						<label fallback="">$INFO[ListItem.Label2]</label>
 		        <visible>Container.Content(Addons) | Substring(Container.FolderPath,plugin,left)</visible>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
@@ -553,7 +553,7 @@
 							<align>right</align>
 							<aligny>center</aligny>
 					    <scroll>true</scroll>
-							<label fallback="․  ․  ․">$VAR[MusicLabel2]</label>
+							<label fallback="">$VAR[MusicLabel2]</label>
 			        <visible>![Container.Content(Addons) | Substring(Container.FolderPath,plugin,left)]</visible>
 	            <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>
@@ -567,7 +567,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>right</align>
 							<aligny>center</aligny>
-							<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+							<label fallback="">$INFO[ListItem.Label2]</label>
 			        <visible>Container.Content(Addons) | Substring(Container.FolderPath,plugin,left)</visible>
 	            <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>

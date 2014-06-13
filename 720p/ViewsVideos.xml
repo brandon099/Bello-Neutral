@@ -507,7 +507,7 @@
 						<shadowcolor>77000000</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․  ․  ․</label>
+						<label></label>
             <visible>IsEmpty(ListItem.Year) + !Stringcompare(ListItem.Label,..)</visible>
 					</control>
 					<control type="label">
@@ -617,7 +617,7 @@
 						<shadowcolor>77000000</shadowcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+						<label fallback="">$INFO[ListItem.Label2]</label>
             <visible>![Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes) | Window.IsVisible(VideoPlaylist) | Substring(ListItem.Path,videodb://movies/sets/)]</visible>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
@@ -635,7 +635,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
-							<label>․  ․  ․</label>
+							<label></label>
 	            <visible>IsEmpty(ListItem.Year) + !Stringcompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="label">
@@ -746,7 +746,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>right</align>
 							<aligny>center</aligny>
-							<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+							<label fallback="">$INFO[ListItem.Label2]</label>
 	            <visible>![Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | Container.Content(Episodes) | Window.IsVisible(VideoPlaylist) | Substring(ListItem.Path,videodb://movies/sets/)]</visible>
 	            <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>
@@ -2153,7 +2153,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
-							<label>․  ․  ․</label>
+							<label></label>
 	            <visible>IsEmpty(ListItem.Year) + !Stringcompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="label">
@@ -2215,7 +2215,7 @@
 								<shadowcolor>77000000</shadowcolor>
 								<align>left</align>
 								<aligny>center</aligny>
-								<label>․  ․  ․</label>
+								<label></label>
 		            <visible>IsEmpty(ListItem.Year) + !Stringcompare(ListItem.Label,..)</visible>
 							</control>
 							<control type="label">

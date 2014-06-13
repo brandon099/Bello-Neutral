@@ -357,7 +357,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․  ․  ․</label>
+						<label></label>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
 					<control type="label">
@@ -384,7 +384,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+						<label fallback="">$INFO[ListItem.Label2]</label>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
 				</itemlayout>
@@ -401,7 +401,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
-							<label>․  ․  ․</label>
+							<label></label>
               <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="label">
@@ -427,7 +427,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>right</align>
 							<aligny>center</aligny>
-							<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+							<label fallback="">$INFO[ListItem.Label2]</label>
               <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>
           </control>
@@ -444,7 +444,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․  ․  ․</label>
+						<label></label>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
 					<control type="label">
@@ -471,7 +471,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+						<label fallback="">$INFO[ListItem.Label2]</label>
 						<visible>IsEmpty(ListItem.Property(Addon.Broken))</visible>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
@@ -486,7 +486,7 @@
 						<selectedcolor>selected</selectedcolor>
 						<align>right</align>
 						<aligny>center</aligny>
-						<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+						<label fallback="">$INFO[ListItem.Label2]</label>
 						<visible>!IsEmpty(ListItem.Property(Addon.Broken))</visible>
             <visible>!Stringcompare(ListItem.Label,..)</visible>
 					</control>
@@ -504,7 +504,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>left</align>
 							<aligny>center</aligny>
-							<label>․  ․  ․</label>
+							<label></label>
               <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>
 						<control type="label">
@@ -530,7 +530,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>right</align>
 							<aligny>center</aligny>
-							<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+							<label fallback="">$INFO[ListItem.Label2]</label>
 							<visible>IsEmpty(ListItem.Property(Addon.Broken))</visible>
               <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>
@@ -544,7 +544,7 @@
 							<shadowcolor>77000000</shadowcolor>
 							<align>right</align>
 							<aligny>center</aligny>
-							<label fallback="․  ․  ․">$INFO[ListItem.Label2]</label>
+							<label fallback="">$INFO[ListItem.Label2]</label>
 							<visible>!IsEmpty(ListItem.Property(Addon.Broken))</visible>
               <visible>!Stringcompare(ListItem.Label,..)</visible>
 						</control>

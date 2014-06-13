@@ -1469,7 +1469,7 @@
 		<value condition="Container.Content(Songs) + !IntegerGreaterThan(ListItem.TrackNumber,9)">$INFO[ListItem.TrackNumber,0]</value>
 		<value condition="Container.Content(Songs) + IntegerGreaterThan(ListItem.TrackNumber,9)">$INFO[ListItem.TrackNumber]</value>
 	  <value condition="!IsEmpty(ListItem.Year) + !Container.Content(Songs)">$INFO[ListItem.Year]</value>
-	  <value condition="!Container.Content(Songs)">․  ․  ․</value>
+	  <value condition="!Container.Content(Songs)"></value>
 	</variable>	
 
 	<variable name="MusicLabel">
