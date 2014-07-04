@@ -525,7 +525,7 @@
 			    <align>left</align>
 			    <aligny>center</aligny>
 					<scroll>false</scroll>
-	        <label>$INFO[Control.GetLabel(26),․  ]</label>
+	        <label>$INFO[Control.GetLabel(26),•  ]</label>
 					<animation effect="fade" start="100" end="30" time="200" tween="sine" easing="inout" condition="!Control.HasFocus(26)" reversible="true">Conditional</animation>
 	        <animation effect="zoom" start="100" end="95" time="200" tween="sine" easing="inout" center="15,0" condition="!Control.HasFocus(26)" reversible="true">Conditional</animation>
 				</control>
@@ -539,7 +539,7 @@
 			    <align>left</align>
 			    <aligny>center</aligny>
 					<scroll>false</scroll>
-	        <label>$INFO[Control.GetLabel(25),․  ]</label>
+	        <label>$INFO[Control.GetLabel(25),•  ]</label>
 					<animation effect="fade" start="100" end="30" time="200" tween="sine" easing="inout" condition="!Control.HasFocus(25)" reversible="true">Conditional</animation>
 	        <animation effect="zoom" start="100" end="95" time="200" tween="sine" easing="inout" center="15,0" condition="!Control.HasFocus(25)" reversible="true">Conditional</animation>
 				</control>
@@ -553,7 +553,7 @@
 			    <align>left</align>
 			    <aligny>center</aligny>
 					<scroll>false</scroll>
-	        <label>$INFO[Control.GetLabel(28),․  ]</label>
+	        <label>$INFO[Control.GetLabel(28),•  ]</label>
 					<animation effect="fade" start="100" end="30" time="200" tween="sine" easing="inout" condition="!Control.HasFocus(28)" reversible="true">Conditional</animation>
 	        <animation effect="zoom" start="100" end="95" time="200" tween="sine" easing="inout" center="15,0" condition="!Control.HasFocus(28)" reversible="true">Conditional</animation>
 				</control>

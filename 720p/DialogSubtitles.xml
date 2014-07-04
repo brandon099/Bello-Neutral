@@ -393,7 +393,7 @@
 								<aligny>center</aligny>
 								<textcolor>77white</textcolor>
 					      <shadowcolor>99000000</shadowcolor>
-								<label>․  $INFO[ListItem.Label]</label>
+								<label>•  $INFO[ListItem.Label]</label>
 							</control>
 						</itemlayout>
 						<focusedlayout width="290" height="51">
@@ -426,7 +426,7 @@
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
 					      <shadowcolor>99000000</shadowcolor>
-								<label>․  $INFO[ListItem.Label]</label>
+								<label>•  $INFO[ListItem.Label]</label>
 							</control>
 						</focusedlayout>
 					</control>
@@ -444,7 +444,7 @@
 						<control type="button" id="171">
 							<description>Subs Settings button</description>
 						  <width>290</width>
-							<label>․  $LOCALIZE[5]</label>
+							<label>•  $LOCALIZE[5]</label>
 							<textoffsetx>15</textoffsetx>
 			        <include>DialogsButton</include>
 			        <onclick>ActivateWindowAndFocus(videossettings, -96,0, -80,0)</onclick>
@@ -452,7 +452,7 @@
 						<control type="button" id="172">
 						  <description>Manual search button</description>
 						  <width>290</width>
-							<label>․  $LOCALIZE[24120]</label>
+							<label>•  $LOCALIZE[24120]</label>
 							<textoffsetx>15</textoffsetx>
 			        <include>DialogsButton</include>
 							<onclick>SendClick(160)</onclick>

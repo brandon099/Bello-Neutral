@@ -873,7 +873,7 @@
 				    <shadowcolor>99000000</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․</label>
+						<label>•</label>
 					</control>
 					<control type="label">
 						<left>30</left>
@@ -941,7 +941,7 @@
 				    <shadowcolor>99000000</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․</label>
+						<label>•</label>
 					</control>
 					<control type="label">
 						<left>30</left>
@@ -1036,7 +1036,7 @@
 				    <shadowcolor>99000000</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․</label>
+						<label>•</label>
 					</control>
 					<control type="label">
 						<left>30</left>
@@ -1104,7 +1104,7 @@
 				    <shadowcolor>99000000</shadowcolor>
 						<align>left</align>
 						<aligny>center</aligny>
-						<label>․</label>
+						<label>•</label>
 					</control>
 					<control type="label">
 						<left>30</left>

@@ -59,12 +59,12 @@
 					 <itemgap>0</itemgap>
 					 <orientation>horizontal</orientation>
 					 <focusposition>1</focusposition>
-           <scrolltime tween="Quadratic" easing="out">300</scrolltime>
+           <scrolltime tween="Sine" easing="InOut">250</scrolltime>
 					 <itemlayout width="430">
 				    <control type="group">
 				     <animation type="Conditional" condition="true">
-				       <effect type="zoom" start="100" end="65" time="0" center="318,220" />
-				       <effect type="fade" start="100" end="35" time="0" />
+				       <effect type="zoom" start="50" end="65" time="0" center="318,220" />
+				       <effect type="fade" start="50" end="35" time="0" />
 				     </animation>
 						 <control type="label">
 							  <left>300</left>
@@ -733,7 +733,7 @@
 						<top>98</top>
 						<height>25</height>
 						<width>1000</width>
-						<label>$INFO[VideoPlayer.TVShowTitle] • $LOCALIZE[20373] $INFO[VideoPlayer.Season] • $LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
+						<label>$INFO[VideoPlayer.TVShowTitle] · $LOCALIZE[20373] $INFO[VideoPlayer.Season] · $LOCALIZE[20359] $INFO[VideoPlayer.episode]</label>
 						<align>left</align>
 						<aligny>center</aligny>
 						<font>NotificationsFont</font>

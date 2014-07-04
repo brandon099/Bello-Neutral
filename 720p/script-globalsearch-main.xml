@@ -170,7 +170,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-                  <label>$INFO[ListItem.Property(Year),, • ]$INFO[ListItem.Property(Rating),,]$INFO[ListItem.Property(Duration), • , $LOCALIZE[12391]]</label>
+                  <label>$INFO[ListItem.Property(Year),, · ]$INFO[ListItem.Property(Rating),,]$INFO[ListItem.Property(Duration), · , $LOCALIZE[12391]]</label>
 								</control>
 							</control>
 						</focusedlayout>
@@ -311,7 +311,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-                  <label>$INFO[ListItem.Property(Year),, • ]$INFO[ListItem.Property(Rating),,]$INFO[ListItem.Property(MPAA), • ,]</label>
+                  <label>$INFO[ListItem.Property(Year),, · ]$INFO[ListItem.Property(Rating),,]$INFO[ListItem.Property(MPAA), · ,]</label>
 								</control>
 							</control>
 						</focusedlayout>
@@ -464,7 +464,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-									<label>$INFO[ListItem.Property(Premiered),$LOCALIZE[31003] ]$INFO[ListItem.Property(Rating), • ,]$INFO[ListItem.Property(Duration), • , $LOCALIZE[12391]]</label>
+									<label>$INFO[ListItem.Property(Premiered),$LOCALIZE[31003] ]$INFO[ListItem.Property(Rating), · ,]$INFO[ListItem.Property(Duration), · , $LOCALIZE[12391]]</label>
 								</control>
 							</control>
 						</focusedlayout>
@@ -586,7 +586,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-                  <label>$INFO[ListItem.Property(Year),, • ]$INFO[ListItem.Property(Rating),,]$INFO[ListItem.Property(Duration), • , $LOCALIZE[12391]]</label>
+                  <label>$INFO[ListItem.Property(Year),, · ]$INFO[ListItem.Property(Rating),,]$INFO[ListItem.Property(Duration), · , $LOCALIZE[12391]]</label>
 								</control>
 							</control>
 						</focusedlayout>
@@ -827,7 +827,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-                  <label>$INFO[ListItem.Property(Year)]$INFO[ListItem.Property(Album_label), • ]</label>
+                  <label>$INFO[ListItem.Property(Year)]$INFO[ListItem.Property(Album_label), · ]</label>
 								</control>
 							</control>
 						</focusedlayout>
@@ -956,7 +956,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-                  <label>$INFO[ListItem.Property(Track),$LOCALIZE[554] #0,]$INFO[ListItem.Property(Duration), • , $LOCALIZE[12391]]</label>
+                  <label>$INFO[ListItem.Property(Track),$LOCALIZE[554] #0,]$INFO[ListItem.Property(Duration), · , $LOCALIZE[12391]]</label>
 							    <visible>!IntegerGreaterThan(ListItem.Property(Track),9)</visible>
 								</control>
 								<control type="label">
@@ -968,7 +968,7 @@
 									<textcolor>99white</textcolor>
 						      <shadowcolor>99000000</shadowcolor>
 									<align>left</align>
-                  <label>$INFO[ListItem.Property(Track),$LOCALIZE[554] #,]$INFO[ListItem.Property(Duration), • , $LOCALIZE[12391]]</label>
+                  <label>$INFO[ListItem.Property(Track),$LOCALIZE[554] #,]$INFO[ListItem.Property(Duration), · , $LOCALIZE[12391]]</label>
 							    <visible>IntegerGreaterThan(ListItem.Property(Track),9)</visible>
 								</control>
 							</control>

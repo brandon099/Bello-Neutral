@@ -1304,7 +1304,7 @@
 				<aligny>top</aligny>
 				<textoffsetx>0</textoffsetx>
       	<label>$INFO[ListItem.Title]</label>
-      	<label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]$INFO[ListItem.Genre, • ]</label2>
+      	<label2>$INFO[ListItem.StartTime]$INFO[ListItem.EndTime, - ]$INFO[ListItem.Genre, · ]</label2>
 			</control>
 			<control type="textbox">
 				<left>128</left>

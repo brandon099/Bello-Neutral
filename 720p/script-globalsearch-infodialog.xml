@@ -309,7 +309,7 @@
 							<posy>32</posy>
 							<width>870</width>
 							<height>25</height>
-              <label>$INFO[Container(100).ListItem.Property(TVShowTitle)]$INFO[Container(100).ListItem.Property(Season), • $LOCALIZE[20373] ,]$INFO[Container(100).ListItem.Property(Episode), • $LOCALIZE[20359] ,]</label>
+              <label>$INFO[Container(100).ListItem.Property(TVShowTitle)]$INFO[Container(100).ListItem.Property(Season), · $LOCALIZE[20373] ,]$INFO[Container(100).ListItem.Property(Episode), · $LOCALIZE[20359] ,]</label>
 							<font>FontSize_22</font>
 						  <textcolor>99white</textcolor>
 						  <shadowcolor>99000000</shadowcolor>

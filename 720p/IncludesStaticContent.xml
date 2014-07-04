@@ -166,7 +166,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.1.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.1.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.1.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.1.Year)]$INFO[Window(Home).Property(LatestMovie.1.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.1.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.1.Year)]$INFO[Window(Home).Property(LatestMovie.1.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.1.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<!-- <property name="Plot">$INFO[Window(Home).property(LatestMovie.1.Plot)]</property> -->
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.1.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.1.Title))</visible>
@@ -177,7 +177,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.2.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.2.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.2.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.2.Year)]$INFO[Window(Home).Property(LatestMovie.2.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.2.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.2.Year)]$INFO[Window(Home).Property(LatestMovie.2.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.2.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.2.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.2.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -187,7 +187,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.3.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.3.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.3.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.3.Year)]$INFO[Window(Home).Property(LatestMovie.3.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.3.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.3.Year)]$INFO[Window(Home).Property(LatestMovie.3.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.3.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.3.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.3.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -197,7 +197,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.4.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.4.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.4.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.4.Year)]$INFO[Window(Home).Property(LatestMovie.4.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.4.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.4.Year)]$INFO[Window(Home).Property(LatestMovie.4.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.4.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.4.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.4.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -207,7 +207,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.5.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.5.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.5.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.5.Year)]$INFO[Window(Home).Property(LatestMovie.5.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.5.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.5.Year)]$INFO[Window(Home).Property(LatestMovie.5.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.5.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.5.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.5.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -217,7 +217,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.6.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.6.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.6.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.6.Year)]$INFO[Window(Home).Property(LatestMovie.6.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.6.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.6.Year)]$INFO[Window(Home).Property(LatestMovie.6.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.6.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.6.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.6.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -227,7 +227,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.7.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.7.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.7.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.7.Year)]$INFO[Window(Home).Property(LatestMovie.7.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.7.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.7.Year)]$INFO[Window(Home).Property(LatestMovie.7.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.7.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.7.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.7.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -237,7 +237,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.8.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.8.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.8.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.8.Year)]$INFO[Window(Home).Property(LatestMovie.8.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.8.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.8.Year)]$INFO[Window(Home).Property(LatestMovie.8.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.8.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.8.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.8.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -247,7 +247,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.9.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.9.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.9.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.9.Year)]$INFO[Window(Home).Property(LatestMovie.9.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.9.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.9.Year)]$INFO[Window(Home).Property(LatestMovie.9.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.9.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.9.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.9.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -257,7 +257,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(LatestMovie.10.Path)])</onclick>
 			<icon>$INFO[Window(Home).property(LatestMovie.10.Thumb)]</icon>
 			<label>$INFO[Window(Home).Property(LatestMovie.10.Title)]</label>
-			<label2>$INFO[Window(Home).Property(LatestMovie.10.Year)]$INFO[Window(Home).Property(LatestMovie.10.Rating), • ,]$INFO[Window(Home).Property(LatestMovie.10.RunningTime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(LatestMovie.10.Year)]$INFO[Window(Home).Property(LatestMovie.10.Rating), · ,]$INFO[Window(Home).Property(LatestMovie.10.RunningTime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(LatestMovie.10.Fanart)]</property>
 			<visible>!IsEmpty(Window(Home).Property(LatestMovie.10.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -515,7 +515,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.1.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.1.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.1.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.1.Year)]$INFO[Window(Home).Property(RecommendedMovie.1.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.1.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.1.Year)]$INFO[Window(Home).Property(RecommendedMovie.1.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.1.Runtime), · , $LOCALIZE[12391]]</label2>
 			<!-- <property name="Plot">$INFO[Window(Home).property(RecommendedMovie.1.Plot)]</property> -->
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.1.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.1.Title))</visible>
@@ -526,7 +526,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.2.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.2.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.2.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.2.Year)]$INFO[Window(Home).Property(RecommendedMovie.2.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.2.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.2.Year)]$INFO[Window(Home).Property(RecommendedMovie.2.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.2.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.2.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.2.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -536,7 +536,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.3.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.3.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.3.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.3.Year)]$INFO[Window(Home).Property(RecommendedMovie.3.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.3.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.3.Year)]$INFO[Window(Home).Property(RecommendedMovie.3.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.3.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.3.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.3.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -546,7 +546,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.4.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.4.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.4.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.4.Year)]$INFO[Window(Home).Property(RecommendedMovie.4.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.4.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.4.Year)]$INFO[Window(Home).Property(RecommendedMovie.4.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.4.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.4.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.4.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -556,7 +556,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.5.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.5.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.5.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.5.Year)]$INFO[Window(Home).Property(RecommendedMovie.5.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.5.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.5.Year)]$INFO[Window(Home).Property(RecommendedMovie.5.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.5.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.5.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.5.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -566,7 +566,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.6.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.6.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.6.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.6.Year)]$INFO[Window(Home).Property(RecommendedMovie.6.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.6.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.6.Year)]$INFO[Window(Home).Property(RecommendedMovie.6.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.6.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.6.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.6.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -576,7 +576,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.7.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.7.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.7.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.7.Year)]$INFO[Window(Home).Property(RecommendedMovie.7.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.7.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.7.Year)]$INFO[Window(Home).Property(RecommendedMovie.7.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.7.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.7.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.7.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -586,7 +586,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.8.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.8.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.8.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.8.Year)]$INFO[Window(Home).Property(RecommendedMovie.8.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.8.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.8.Year)]$INFO[Window(Home).Property(RecommendedMovie.8.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.8.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.8.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.8.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -596,7 +596,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.9.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.9.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.9.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.9.Year)]$INFO[Window(Home).Property(RecommendedMovie.9.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.9.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.9.Year)]$INFO[Window(Home).Property(RecommendedMovie.9.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.9.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.9.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.9.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -606,7 +606,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RecommendedMovie.10.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RecommendedMovie.10.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RecommendedMovie.10.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RecommendedMovie.10.Year)]$INFO[Window(Home).Property(RecommendedMovie.10.Rating), • ,]$INFO[Window(Home).Property(RecommendedMovie.10.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RecommendedMovie.10.Year)]$INFO[Window(Home).Property(RecommendedMovie.10.Rating), · ,]$INFO[Window(Home).Property(RecommendedMovie.10.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RecommendedMovie.10.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RecommendedMovie.10.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -863,7 +863,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.1.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.1.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.1.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.1.Year)]$INFO[Window(Home).Property(RandomMovie.1.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.1.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.1.Year)]$INFO[Window(Home).Property(RandomMovie.1.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.1.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.1.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.1.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -873,7 +873,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.2.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.2.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.2.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.2.Year)]$INFO[Window(Home).Property(RandomMovie.2.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.2.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.2.Year)]$INFO[Window(Home).Property(RandomMovie.2.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.2.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.2.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.2.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -883,7 +883,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.3.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.3.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.3.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.3.Year)]$INFO[Window(Home).Property(RandomMovie.3.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.3.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.3.Year)]$INFO[Window(Home).Property(RandomMovie.3.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.3.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.3.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.3.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -893,7 +893,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.4.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.4.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.4.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.4.Year)]$INFO[Window(Home).Property(RandomMovie.4.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.4.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.4.Year)]$INFO[Window(Home).Property(RandomMovie.4.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.4.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.4.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.4.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -903,7 +903,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.5.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.5.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.5.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.5.Year)]$INFO[Window(Home).Property(RandomMovie.5.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.5.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.5.Year)]$INFO[Window(Home).Property(RandomMovie.5.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.5.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.5.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.5.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -913,7 +913,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.6.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.6.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.6.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.6.Year)]$INFO[Window(Home).Property(RandomMovie.6.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.6.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.6.Year)]$INFO[Window(Home).Property(RandomMovie.6.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.6.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.6.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.6.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -923,7 +923,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.7.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.7.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.7.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.7.Year)]$INFO[Window(Home).Property(RandomMovie.7.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.7.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.7.Year)]$INFO[Window(Home).Property(RandomMovie.7.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.7.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.7.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.7.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -933,7 +933,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.8.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.8.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.8.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.8.Year)]$INFO[Window(Home).Property(RandomMovie.8.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.8.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.8.Year)]$INFO[Window(Home).Property(RandomMovie.8.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.8.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.8.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.8.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -943,7 +943,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.9.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.9.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.9.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.9.Year)]$INFO[Window(Home).Property(RandomMovie.9.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.9.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.9.Year)]$INFO[Window(Home).Property(RandomMovie.9.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.9.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.9.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.9.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -953,7 +953,7 @@
 			<onclick>PlayMedia($ESCINFO[Window(Home).Property(RandomMovie.10.File)])</onclick>
 			<icon>$INFO[Window(Home).property(RandomMovie.10.Art(poster))]</icon>
 			<label>$INFO[Window(Home).Property(RandomMovie.10.Title)]</label>
-			<label2>$INFO[Window(Home).Property(RandomMovie.10.Year)]$INFO[Window(Home).Property(RandomMovie.10.Rating), • ,]$INFO[Window(Home).Property(RandomMovie.10.Runtime), • , $LOCALIZE[12391]]</label2>
+			<label2>$INFO[Window(Home).Property(RandomMovie.10.Year)]$INFO[Window(Home).Property(RandomMovie.10.Rating), · ,]$INFO[Window(Home).Property(RandomMovie.10.Runtime), · , $LOCALIZE[12391]]</label2>
 			<property name="FanartImage">$INFO[Window(Home).Property(RandomMovie.10.Art(fanart))]</property>
 			<visible>!IsEmpty(Window(Home).Property(RandomMovie.10.Title))</visible>
 	    <visible>Container(20).HasFocus(2)</visible>
@@ -1432,7 +1432,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.1.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.1.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.1.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.1.Rating)]$INFO[Window(Home).Property(InCinemasMovies.1.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.1.Rating)]$INFO[Window(Home).Property(InCinemasMovies.1.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.1.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.2.Art(poster)))</visible>
    </item>
@@ -1441,7 +1441,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.2.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.2.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.2.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.2.Rating)]$INFO[Window(Home).Property(InCinemasMovies.2.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.2.Rating)]$INFO[Window(Home).Property(InCinemasMovies.2.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.2.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.2.Art(poster)))</visible>
    </item>
@@ -1450,7 +1450,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.3.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.3.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.3.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.3.Rating)]$INFO[Window(Home).Property(InCinemasMovies.3.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.3.Rating)]$INFO[Window(Home).Property(InCinemasMovies.3.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.3.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.3.Art(poster)))</visible>
    </item>
@@ -1459,7 +1459,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.4.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.4.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.4.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.4.Rating)]$INFO[Window(Home).Property(InCinemasMovies.4.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.4.Rating)]$INFO[Window(Home).Property(InCinemasMovies.4.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.4.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.4.Art(poster)))</visible>
    </item>
@@ -1468,7 +1468,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.5.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.5.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.5.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.5.Rating)]$INFO[Window(Home).Property(InCinemasMovies.5.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.5.Rating)]$INFO[Window(Home).Property(InCinemasMovies.5.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.5.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.5.Art(poster)))</visible>
    </item>
@@ -1477,7 +1477,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.6.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.6.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.6.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.6.Rating)]$INFO[Window(Home).Property(InCinemasMovies.6.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.6.Rating)]$INFO[Window(Home).Property(InCinemasMovies.6.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.6.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.6.Art(poster)))</visible>
    </item>
@@ -1486,7 +1486,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.7.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.7.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.7.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.7.Rating)]$INFO[Window(Home).Property(InCinemasMovies.7.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.7.Rating)]$INFO[Window(Home).Property(InCinemasMovies.7.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.7.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.7.Art(poster)))</visible>
    </item>
@@ -1495,7 +1495,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.8.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.8.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.8.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.8.Rating)]$INFO[Window(Home).Property(InCinemasMovies.8.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.8.Rating)]$INFO[Window(Home).Property(InCinemasMovies.8.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.8.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.8.Art(poster)))</visible>
    </item>
@@ -1504,7 +1504,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.9.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.9.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.9.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.9.Rating)]$INFO[Window(Home).Property(InCinemasMovies.9.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.9.Rating)]$INFO[Window(Home).Property(InCinemasMovies.9.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.9.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.9.Art(poster)))</visible>
    </item>
@@ -1513,7 +1513,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(InCinemasMovies.10.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(InCinemasMovies.10.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(InCinemasMovies.10.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(InCinemasMovies.10.Rating)]$INFO[Window(Home).Property(InCinemasMovies.10.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(InCinemasMovies.10.Rating)]$INFO[Window(Home).Property(InCinemasMovies.10.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(InCinemasMovies.10.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(InCinemasMovies.10.Art(poster)))</visible>
    </item>
@@ -1526,7 +1526,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.1.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.1.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.1.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.1.Rating)]$INFO[Window(Home).Property(TrendingMovies.1.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.1.Rating)]$INFO[Window(Home).Property(TrendingMovies.1.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.1.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.1.Art(poster)))</visible>
    </item>
@@ -1535,7 +1535,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.2.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.2.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.2.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.2.Rating)]$INFO[Window(Home).Property(TrendingMovies.2.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.2.Rating)]$INFO[Window(Home).Property(TrendingMovies.2.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.2.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.2.Art(poster)))</visible>
    </item>
@@ -1544,7 +1544,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.3.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.3.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.3.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.3.Rating)]$INFO[Window(Home).Property(TrendingMovies.3.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.3.Rating)]$INFO[Window(Home).Property(TrendingMovies.3.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.3.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.3.Art(poster)))</visible>
    </item>
@@ -1553,7 +1553,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.4.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.4.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.4.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.4.Rating)]$INFO[Window(Home).Property(TrendingMovies.4.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.4.Rating)]$INFO[Window(Home).Property(TrendingMovies.4.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.4.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.4.Art(poster)))</visible>
    </item>
@@ -1562,7 +1562,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.5.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.5.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.5.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.5.Rating)]$INFO[Window(Home).Property(TrendingMovies.5.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.5.Rating)]$INFO[Window(Home).Property(TrendingMovies.5.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.5.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.5.Art(poster)))</visible>
    </item>
@@ -1571,7 +1571,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.6.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.6.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.6.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.6.Rating)]$INFO[Window(Home).Property(TrendingMovies.6.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.6.Rating)]$INFO[Window(Home).Property(TrendingMovies.6.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.6.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.6.Art(poster)))</visible>
    </item>
@@ -1580,7 +1580,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.7.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.7.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.7.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.7.Rating)]$INFO[Window(Home).Property(TrendingMovies.7.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.7.Rating)]$INFO[Window(Home).Property(TrendingMovies.7.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.7.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.7.Art(poster)))</visible>
    </item>
@@ -1589,7 +1589,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.8.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.8.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.8.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.8.Rating)]$INFO[Window(Home).Property(TrendingMovies.8.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.8.Rating)]$INFO[Window(Home).Property(TrendingMovies.8.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.8.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.8.Art(poster)))</visible>
    </item>
@@ -1598,7 +1598,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.9.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.9.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.9.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.9.Rating)]$INFO[Window(Home).Property(TrendingMovies.9.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.9.Rating)]$INFO[Window(Home).Property(TrendingMovies.9.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.9.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.9.Art(poster)))</visible>
    </item>
@@ -1607,7 +1607,7 @@
       <onclick>PlayMedia($INFO[Window(Home).Property(TrendingMovies.10.Trailer])</onclick>
       <icon>$INFO[Window(Home).Property(TrendingMovies.10.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingMovies.10.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingMovies.10.Rating)]$INFO[Window(Home).Property(TrendingMovies.10.Year), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingMovies.10.Rating)]$INFO[Window(Home).Property(TrendingMovies.10.Year), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingMovies.10.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingMovies.10.Art(poster)))</visible>
    </item>
@@ -1620,7 +1620,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.1.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.1.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.1.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.1.Rating)]$INFO[Window(Home).Property(TrendingShows.1.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.1.Rating)]$INFO[Window(Home).Property(TrendingShows.1.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.1.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.1.Art(poster)))</visible>
    </item>
@@ -1629,7 +1629,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.2.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.2.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.2.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.2.Rating)]$INFO[Window(Home).Property(TrendingShows.2.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.2.Rating)]$INFO[Window(Home).Property(TrendingShows.2.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.2.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.2.Art(poster)))</visible>
    </item>
@@ -1638,7 +1638,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.3.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.3.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.3.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.3.Rating)]$INFO[Window(Home).Property(TrendingShows.3.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.3.Rating)]$INFO[Window(Home).Property(TrendingShows.3.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.3.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.3.Art(poster)))</visible>
    </item>
@@ -1647,7 +1647,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.4.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.4.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.4.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.4.Rating)]$INFO[Window(Home).Property(TrendingShows.4.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.4.Rating)]$INFO[Window(Home).Property(TrendingShows.4.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.4.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.4.Art(poster)))</visible>
    </item>
@@ -1656,7 +1656,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.5.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.5.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.5.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.5.Rating)]$INFO[Window(Home).Property(TrendingShows.5.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.5.Rating)]$INFO[Window(Home).Property(TrendingShows.5.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.5.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.5.Art(poster)))</visible>
    </item>
@@ -1665,7 +1665,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.6.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.6.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.6.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.6.Rating)]$INFO[Window(Home).Property(TrendingShows.6.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.6.Rating)]$INFO[Window(Home).Property(TrendingShows.6.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.6.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.6.Art(poster)))</visible>
    </item>
@@ -1674,7 +1674,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.7.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.7.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.7.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.7.Rating)]$INFO[Window(Home).Property(TrendingShows.7.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.7.Rating)]$INFO[Window(Home).Property(TrendingShows.7.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.7.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.7.Art(poster)))</visible>
    </item>
@@ -1683,7 +1683,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.8.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.8.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.8.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.8.Rating)]$INFO[Window(Home).Property(TrendingShows.8.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.8.Rating)]$INFO[Window(Home).Property(TrendingShows.8.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.8.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.8.Art(poster)))</visible>
    </item>
@@ -1692,7 +1692,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.9.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.9.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.9.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.9.Rating)]$INFO[Window(Home).Property(TrendingShows.9.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.9.Rating)]$INFO[Window(Home).Property(TrendingShows.9.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.9.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.9.Art(poster)))</visible>
    </item>
@@ -1701,7 +1701,7 @@
       <onclick>ActivateWindow(videos,$INFO[Window(Home).Property(TrendingShows.10.Title),plugin://plugin.video.youtube/?feed=search&amp;path=%2froot%2fsearch&amp;search=, trailer],return)</onclick>
       <icon>$INFO[Window(Home).Property(TrendingShows.10.Art(poster))]</icon>
       <label>$INFO[Window(Home).Property(TrendingShows.10.Title)]</label>
-	    <label2>$INFO[Window(Home).Property(TrendingShows.10.Rating)]$INFO[Window(Home).Property(TrendingShows.10.Premiered), • ,]</label2>
+	    <label2>$INFO[Window(Home).Property(TrendingShows.10.Rating)]$INFO[Window(Home).Property(TrendingShows.10.Premiered), · ,]</label2>
 	    <property name="FanartImage">$INFO[Window(Home).Property(TrendingShows.10.Art(fanart))]</property>
       <visible>!IsEmpty(Window(Home).Property(TrendingShows.10.Art(poster)))</visible>
    </item>
