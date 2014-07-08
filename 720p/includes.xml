@@ -1024,7 +1024,7 @@
 			    <align>right</align>
 			    <aligny>center</aligny>
 					<scroll>false</scroll>
-					<label>$INFO[Window(Weather).Property(Current.Temperature),,°]</label>
+					<label>$INFO[Window(Weather).Property(Current.Temperature),,°] </label>
 					<visible>Weather.IsFetched</visible>
 				</control>
 		  </control>
