@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.bello" version="2.0.8" name="Bello" provider-name="Nessus">
+<addon id="skin.bello.neutral" version="2.0.8" name="Bello-Neutral" provider-name="brandon.clifford">
   <requires>
 		<import addon="xbmc.gui" version="5.0.1"/>
 		<import addon="service.skin.widgets" version="0.0.29"/>
@@ -109,7 +109,7 @@
     <platform>all</platform>
     <license>Creative Commons Attribution-NonCommercial-Share Alike 3.0 Unported License</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=158577</forum>
-    <email>nessus85100 at hotmail dot com</email>
-    <source>https://github.com/Nessus85100/Bello</source>
+    <email>brandon099 at gmail dot com</email>
+    <source>https://github.com/brandon099/Bello-Neutral</source>
   </extension>
 </addon>
